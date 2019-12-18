@@ -157,8 +157,8 @@ and CLJC (`.cljc`).
 4. In the File type field, choose the correct filetype.
 5. Scope: `Current file`
 6. In the Program field, type `clj-kondo`.
-7. In the Arguments field, type `--lint $FilePath$ --cache`.<br>
-You may use a custom config E.g `--lint $FilePath$ --cache --config "{:lint-as {manifold.deferred/let-flow clojure.core/let}}"`.
+7. In the Arguments field, type `--lint $FilePath$`.<br>
+You may use a custom config E.g `--lint $FilePath$ --config "{:lint-as {manifold.deferred/let-flow clojure.core/let}}"`.
 8. In the Working directory field, type `$FileDir$`.
 9. Enable `Create output file from stdout`
 10. Show console: `Never`
